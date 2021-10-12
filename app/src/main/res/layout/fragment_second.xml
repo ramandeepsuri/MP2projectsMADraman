@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <ImageView
+        android:id="@+id/pkd_imgv"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtpname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pkd_txtpname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Test Data"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtpdesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_imgv" />
+
+    <TextView
+        android:id="@+id/pkd_txtpdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtpability"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtpname" />
+
+    <TextView
+        android:id="@+id/pkd_txtpability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtptype"
+        app:layout_constraintStart_toStartOf="@+id/pkd_txtpdesc"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtpdesc" />
+
+    <TextView
+        android:id="@+id/pkd_txtptype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtpheight"
+        app:layout_constraintStart_toStartOf="@+id/pkd_txtpability"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtpability" />
+
+    <TextView
+        android:id="@+id/pkd_txtpheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toTopOf="@+id/pkd_txtpweight"
+        app:layout_constraintStart_toStartOf="@+id/pkd_txtptype"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtptype" />
+
+    <TextView
+        android:id="@+id/pkd_txtpweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pkd_txtpheight"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtpheight" />
+
+    <TextView
+        android:id="@+id/pkd_txtpspecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Test Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pkd_txtpheight"
+        app:layout_constraintTop_toBottomOf="@+id/pkd_txtpheight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
